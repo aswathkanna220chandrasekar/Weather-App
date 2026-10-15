@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #187262, #020a2f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    width: 320px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px #555;
+}
+
+h1 {
+    color: #333;
+}
+
+.search {
+    display: flex;
+    gap: 5px;
+}
+
+input {
+    width: 65%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #217dbb;
+}
+
+#weather {
+    margin-top: 25px;
+}
+
+#temperature {
+    color: #3498db;
+    font-size: 40px;
+}
+
+.details {
+    background: #f1f7ff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#message {
+    color: red;
+}
+
+.credit {
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px;
+}
